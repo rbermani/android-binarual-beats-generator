@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">Brain Tuner\nCreated by Machine Elves Media\nCopyright (c) 2011 Machine Elves Media\nAll Rights Reserved</string>
+    <string name="wavePrompt">Select a Brain state</string>
+    <string name="preferences">Set Preferences</string>
+    <string name="app_name">Brain Tuner</string>
+<string name="lipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere varius metus, nec congue sapien interdum vel. Praesent vel sapien arcu. Cras sem orci, vulputate non congue non, aliquam vel magna. Aliquam nunc felis, auctor euismod commodo eu, aliquet eget nisl. Suspendisse accumsan congue porta. Quisque rutrum dui nec mi sollicitudin consequat dapibus elit tristique. Morbi non eros vitae tellus fermentum auctor ac ut lacus. Pellentesque ornare tincidunt dignissim. Aenean vitae lacinia justo. Vivamus semper, nisi consequat laoreet vestibulum, nisi lectus elementum justo, et sagittis felis sem quis justo. Phasellus tempus felis ac odio consectetur dictum. Donec elementum elementum est vel malesuada. Donec ac metus id erat tempor laoreet. Aenean vitae arcu vel tortor feugiat placerat. Vivamus accumsan porta lectus at consequat. Curabitur placerat, enim eu porta faucibus, sapien erat placerat elit, quis gravida orci lacus et enim. Praesent ut ipsum eget erat aliquam feugiat et vestibulum sapien. Phasellus sapien massa, laoreet nec dapibus a, accumsan tincidunt diam.
+
+Sed ultricies rutrum nisi at porta. Praesent egestas, sem non posuere hendrerit, urna mi venenatis augue, vitae lobortis tortor arcu egestas arcu. Sed feugiat nulla nec nulla tincidunt sit amet commodo enim mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras facilisis bibendum neque fringilla blandit. Nam vel eros ultricies orci vulputate lacinia. Etiam tempor eros ac eros rutrum mattis dapibus massa porta. Curabitur vitae pellentesque nisi. Nulla venenatis orci nec velit venenatis ut commodo lorem consectetur. Sed id libero gravida urna tempor vestibulum non suscipit urna. Nam lacinia, lacus eu porta iaculis, lorem est suscipit turpis, vel venenatis nibh risus et lectus. Fusce vel ante vel justo vehicula placerat. Maecenas at vehicula libero. Sed dolor massa, tincidunt id luctus sagittis, bibendum a est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum varius libero molestie urna fermentum lacinia. Pellentesque euismod vestibulum pellentesque.
+
+Etiam accumsan nisi sed dolor eleifend sollicitudin. Etiam sit amet odio turpis, pulvinar egestas sem. Praesent at nunc nisl. Aliquam vitae dolor elit. Sed diam augue, auctor id suscipit ac, tristique eget metus. Ut nisl ante, condimentum eu dapibus eu, lacinia eget risus. Pellentesque sit amet neque magna. Nunc bibendum risus et ante egestas condimentum. Nunc sit amet tincidunt magna. In ut dapibus mi. Sed hendrerit lectus in magna convallis porta.
+
+Vivamus a enim sed turpis dapibus malesuada ac id nunc. Sed placerat ultricies vulputate. Phasellus facilisis tellus in purus interdum egestas. Vivamus bibendum scelerisque augue, ut tincidunt urna porttitor mattis. Ut vitae laoreet metus. Etiam dapibus ornare fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a urna purus. Fusce aliquet massa quis lacus posuere quis consectetur magna commodo. Integer erat risus, fermentum ut sollicitudin vel, interdum et urna. Nulla elementum tellus quis orci venenatis sit amet ultricies nunc ultrices. Donec adipiscing posuere euismod. Duis consectetur varius tellus, sit amet imperdiet mauris aliquet eu. Nam iaculis, erat et semper consectetur, enim lorem congue orci, a consequat velit nisi eget justo. Mauris tempor commodo quam, in ultricies turpis tempus eget.
+
+Mauris volutpat accumsan sem nec facilisis. Proin at sem sem, et pulvinar mauris. Nullam hendrerit congue erat vitae lacinia. Cras aliquam nisl quis felis imperdiet vel auctor urna scelerisque. Duis eleifend euismod felis quis mollis. Duis condimentum enim a eros malesuada sit amet commodo augue luctus. Integer sed lorem orci. Sed accumsan hendrerit ipsum in ultricies. Nunc a nibh bibendum elit vulputate sodales nec at ante. Sed ac elementum nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean vel nunc in mauris interdum tempor sed vel metus. Aenean non magna ut enim congue sollicitudin nec sit amet lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce dictum feugiat porttitor. Praesent sit amet tellus et eros molestie laoreet.</string>
+<string name="hello">Hello Android</string>
+<string name="settings">Settings</string><string-array name="wave_states"><item>Alpha</item>
+<item>Beta</item>
+<item>Theta</item>
+<item>Delta</item>
+</string-array>
+
+
+<string name="aboutMenu">About</string>
+</resources>

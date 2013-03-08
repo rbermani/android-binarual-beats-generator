@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.binaural" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:id="@+id/BackgroundLayout" android:layout_height="fill_parent" android:layout_gravity="center_vertical">
+
+    
+ 
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brain State" android:layout_gravity="center_horizontal"></TextView><Spinner android:layout_height="wrap_content" android:id="@+id/spnWaveState" android:prompt="@string/wavePrompt" android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></Spinner>
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beat Frequency [Hz]" android:layout_gravity="center_horizontal"></TextView>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+<ImageButton android:layout_height="fill_parent" android:src="@drawable/arrow_left" android:layout_width="wrap_content" android:id="@+id/leftBeatBtn"></ImageButton>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtBeatFreq" android:inputType="number|numberDecimal" android:text="00.00" android:bufferType="editable" android:longClickable="false" android:clickable="true" android:cursorVisible="true" android:selectAllOnFocus="true"></EditText>
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_right" android:id="@+id/rightBeatBtn"></ImageButton>
+</LinearLayout>
+
+
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Carrier Frequency [Hz]" android:layout_gravity="center_horizontal"></TextView>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_left" android:id="@+id/leftCarrBtn"></ImageButton>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtCarrFreq" android:inputType="number|numberDecimal" android:text="00.00" android:longClickable="false" android:bufferType="editable" android:clickable="true" android:cursorVisible="true" android:selectAllOnFocus="true"></EditText>
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_right" android:id="@+id/rightCarrBtn"></ImageButton>
+
+</LinearLayout>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="Make it so" android:id="@+id/executeBtn"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnMute" android:text="Mute" android:layout_gravity="center_horizontal"></Button>
+
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><com.admob.android.ads.AdView android:id="@+id/ad" android:layout_height="wrap_content" myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF" myapp:secondaryTextColor="#CCCCCC" android:layout_width="wrap_content" android:layout_gravity="bottom"/></LinearLayout>  
+      
+
+
+</LinearLayout>

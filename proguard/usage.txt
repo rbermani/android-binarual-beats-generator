@@ -1,0 +1,85 @@
+com.admob.android.ads.AdManager:
+    public static final java.lang.String SDK_VERSION_DATE
+    public static final java.lang.String SDK_VERSION
+    public static final java.lang.String LOG
+    public static final java.lang.String TEST_EMULATOR
+    213:219:protected static int getScreenWidth(android.content.Context)
+    487:497:public static void setTestDevices(java.lang.String[])
+    504:504:static java.lang.String[] getTestDevices()
+    553:554:public static void setTestAction(java.lang.String)
+    688:690:public static void setAllowUseOfLocation(boolean)
+    925:926:public static void setPostalCode(java.lang.String)
+    968:969:public static void setBirthday(java.util.GregorianCalendar)
+    980:983:public static void setBirthday(int,int,int)
+    992:992:public static com.admob.android.ads.AdManager$Gender getGender()
+    1024:1025:public static void setGender(com.admob.android.ads.AdManager$Gender)
+    1034:1035:static void setEndpoint(java.lang.String)
+    1043:1043:static java.lang.String getEndpoint()
+com.admob.android.ads.AdView:
+    267:268:public AdView(android.app.Activity)
+    888:889:public int getRequestInterval()
+    1153:1156:public int getTextColor()
+    1248:1248:public java.lang.String getKeywords()
+    1256:1257:public void setKeywords(java.lang.String)
+    1264:1264:public java.lang.String getSearchQuery()
+    1272:1273:public void setSearchQuery(java.lang.String)
+    1310:1313:public boolean isGoneWithoutAd()
+    1406:1409:public void setAdListener(com.admob.android.ads.AdListener)
+    1419:1419:public com.admob.android.ads.AdListener getAdListener()
+    1434:1434:public boolean hasAd()
+    1626:1631:public void cleanup()
+com.admob.android.ads.InterstitialAd:
+    public static final java.lang.String ADMOB_INTENT_BOOLEAN
+    private boolean g
+    229:243:public InterstitialAd(com.admob.android.ads.InterstitialAd$Event,com.admob.android.ads.InterstitialAdListener)
+    252:253:public void setListener(com.admob.android.ads.InterstitialAdListener)
+    340:351:public void requestAd(android.content.Context)
+    427:428:public void show(android.app.Activity)
+    450:468:final void a(android.app.Activity)
+    489:489:public boolean isReady()
+    517:517:private static boolean h()
+    538:539:public void setKeywords(java.lang.String)
+    545:546:public void setSearchQuery(java.lang.String)
+    77:77:static void a(com.admob.android.ads.InterstitialAd)
+com.admob.android.ads.InterstitialAd$a:
+    146:150:public InterstitialAd$a(com.admob.android.ads.InterstitialAd,android.content.Context)
+com.admob.android.ads.InterstitialAd$c:
+    110:112:public InterstitialAd$c(com.admob.android.ads.InterstitialAd)
+com.admob.android.ads.InterstitialAd$d
+com.admob.android.ads.InterstitialAd$f
+com.admob.android.ads.SimpleAdListener
+com.admob.android.ads.b:
+    533:546:static void a(java.lang.String)
+    553:553:static java.lang.String a()
+com.admob.android.ads.j:
+    307:307:public final com.admob.android.ads.q a()
+    2869:2873:public static float a(android.content.Context)
+    2880:2880:public static float n()
+rbermani.android.binaural.AndroidAudioDevice:
+    31:32:public void pauseAudio()
+    34:35:public void release()
+    38:40:public void writeSamples(double[])
+    44:46:public void writeSamples(short[])
+    54:59:private void fillBuffer(double[])
+    62:67:private void fillBuffer(short[])
+rbermani.android.binaural.BinauralManager:
+    private static final short NOISE_ADJUST
+    private static final int NOISE_AMPLITUDE
+    private static final short NOISE_BANDS
+    private static final short RAND_MULT
+    217:220:public void configureBeats(double,double,int,int,int)
+    268:269:public void pause()
+rbermani.android.binaural.R
+rbermani.android.binaural.R$array
+rbermani.android.binaural.R$attr
+rbermani.android.binaural.R$drawable
+rbermani.android.binaural.R$id
+rbermani.android.binaural.R$layout
+rbermani.android.binaural.R$menu
+rbermani.android.binaural.R$raw
+rbermani.android.binaural.R$string
+rbermani.android.binaural.R$styleable
+rbermani.android.binaural.R$xml
+rbermani.android.binaural.Voice
+rbermani.android.binaural.VoiceType
+rbermani.android.widgets.SeekBarPreference

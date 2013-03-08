@@ -1,0 +1,20 @@
+The electrical activity within the human brain operates at various frequencies depending on the task at hand. At any given moment, the neurons within different parts of the brain will be firing at different frequencies. Large blocks of neurons tend to entrain with one another and begin operating virtually in unison. Using Electroencephalography (EEG), it is possible to monitor the frequencies in different sections of the brain, albeit with poor spacial resolution. The overall electrical state is composed of a complex combination of different frequenciet, but in most cases, one particular frequency band will tend to dominate. 
+
+In an untrained individual, certain frequency bands tend to dominate only in specific states of consciousness. For example, the Delta state (0.5 to 8 Hz) is usually only found in deep sleep. However, practioners trained in different forms of meditation or trance are capable of producing Delta whilst fully conscious. 
+
+The theory with binaural beats is that the brain electrical state can be influenced through a process of entrainment with sound. Just as meditation and other disciplines are capable of drastically altering states of consciousness, binaural beats can be used to aid or supplement this development. Combined with interactive bio-feedback mechanisms, the effect can be further enhanced. 
+
+Binaural beats work by playing tones of slightly different frequencies into each ear. To be effective, they need to be used with headphones. The idea is that a beating effect will be created inside the brain due to the difference in frequencies and the brain will synchronize with this frequency. The phenomenon is observable on EEG's. For the effect to work properly, the subject needs to relax and let go while still maintaining a state of alertness. Sleeping with binaural beats can also be useful. 
+
+Complex brain states can be achieved by using multiple tones of different amplitudes in combination. Stay tuned for updates and enhancements to this app that will provide support for more complex frequency combinations and tone sequencing. 
+
+The four basic brain states are Delta, Theta, Alpha, and Beta. 
+
+Delta - This state is in the range of 0.5 to 4 Hz. It is usually only generated in deep sleep. Entering a trance state can put a subject into the delta region while remaining conscious. 
+
+Theta - (4 to 8 Hz) This state is the region between deep sleep and inside focused wakefulness. This is the region where typical dreaming occurs. 
+
+Alpha - (8 to 13 Hz) This state is produced when you are awake and conscious, but awareness is focused inside, without awareness of the environment around you. 
+
+Beta - (13 to 30 Hz) This is generated in an untrained person when they are wide awake, with attention focused on the environmen. It's also found when performing problem solving activities that utilize a lot of logical thinking. 
+

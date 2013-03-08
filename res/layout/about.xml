@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/rbermani.android.binaural" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/AboutLayout">
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      
+
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"><TextView android:id="@+id/txtAboutMatter" android:textStyle="normal" android:typeface="serif" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="left|center_vertical"></TextView></ScrollView><TextView android:text="@string/about" android:bufferType="normal" android:typeface="serif" android:scrollHorizontally="false" android:gravity="center" android:id="@+id/txtCopyright" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="5.2"></TextView>
+
+
+</LinearLayout>

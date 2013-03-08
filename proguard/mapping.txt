@@ -1,0 +1,969 @@
+com.admob.android.ads.AdListener -> com.admob.android.ads.cm:
+com.admob.android.ads.AdManager -> com.admob.android.ads.ak:
+    java.lang.String a -> a
+    int b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String[] f -> f
+    java.lang.String g -> g
+    android.location.Location h -> h
+    boolean i -> i
+    boolean j -> j
+    long k -> k
+    java.lang.String l -> l
+    java.util.GregorianCalendar m -> m
+    com.admob.android.ads.AdManager$Gender n -> n
+    boolean o -> o
+    java.lang.Boolean p -> p
+    void clientError(java.lang.String) -> a
+    void a(android.content.Context) -> a
+    java.lang.String a(android.os.Bundle,java.lang.String,java.lang.String) -> a
+    java.lang.String getApplicationPackageName(android.content.Context) -> b
+    int getApplicationVersion(android.content.Context) -> c
+    java.lang.String getPublisherId(android.content.Context) -> d
+    java.lang.String getInterstitialPublisherId(android.content.Context) -> e
+    void a(java.lang.String) -> b
+    java.lang.String getTestAction() -> a
+    boolean isTestDevice(android.content.Context) -> f
+    boolean isEmulator() -> b
+    java.lang.String getUserId(android.content.Context) -> g
+    java.lang.String md5(java.lang.String) -> c
+    android.location.Location getCoordinates(android.content.Context) -> j
+    java.lang.String b(android.content.Context) -> h
+    java.lang.String a() -> c
+    java.lang.String getPostalCode() -> d
+    java.lang.String getOrientation(android.content.Context) -> i
+    java.lang.String b() -> e
+    java.lang.String c() -> f
+    com.admob.android.ads.a a(com.admob.android.ads.v) -> a
+    android.location.Location a(android.location.Location) -> a
+    long a(long) -> a
+    android.location.Location d() -> g
+    long e() -> h
+com.admob.android.ads.AdManager$1 -> com.admob.android.ads.al:
+    android.location.LocationManager a -> a
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+com.admob.android.ads.AdManager$Gender -> com.admob.android.ads.bf:
+    com.admob.android.ads.AdManager$Gender MALE -> a
+    com.admob.android.ads.AdManager$Gender FEMALE -> b
+    com.admob.android.ads.AdManager$Gender[] a -> c
+    com.admob.android.ads.AdManager$Gender[] values() -> values
+    com.admob.android.ads.AdManager$Gender valueOf(java.lang.String) -> valueOf
+com.admob.android.ads.AdMobActivity -> com.admob.android.ads.AdMobActivity:
+    com.admob.android.ads.r a -> a
+    java.util.Vector b -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void finish() -> finish
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onDestroy() -> onDestroy
+com.admob.android.ads.AdMobActivity$1 -> com.admob.android.ads.cj:
+    int[] a -> a
+    int[] b -> b
+com.admob.android.ads.AdView -> com.admob.android.ads.AdView:
+    java.lang.Boolean a -> a
+    com.admob.android.ads.k b -> b
+    int c -> c
+    boolean d -> d
+    com.admob.android.ads.AdView$d e -> e
+    int f -> f
+    int g -> g
+    int h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    com.admob.android.ads.AdListener k -> k
+    boolean l -> l
+    boolean m -> m
+    boolean n -> n
+    long o -> o
+    com.admob.android.ads.AdView$a p -> p
+    com.admob.android.ads.j$b q -> q
+    com.admob.android.ads.AdView$f r -> r
+    android.os.Handler s -> s
+    void onMeasure(int,int) -> onMeasure
+    void requestFreshAd() -> a
+    void c() -> g
+    void a(com.admob.android.ads.j,com.admob.android.ads.k) -> a
+    void setRequestInterval(int) -> a
+    void a(boolean) -> a
+    void d() -> h
+    boolean e() -> i
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
+    int getPrimaryTextColor() -> b
+    void setPrimaryTextColor(int) -> b
+    int getSecondaryTextColor() -> c
+    void setSecondaryTextColor(int) -> c
+    void setBackgroundColor(int) -> setBackgroundColor
+    int getBackgroundColor() -> d
+    void setVisibility(int) -> setVisibility
+    void setEnabled(boolean) -> setEnabled
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void a(com.admob.android.ads.k) -> a
+    com.admob.android.ads.j$b a() -> e
+    com.admob.android.ads.AdView$f b() -> f
+    com.admob.android.ads.k a(com.admob.android.ads.AdView) -> a
+    com.admob.android.ads.AdListener b(com.admob.android.ads.AdView) -> b
+    com.admob.android.ads.AdView$a c(com.admob.android.ads.AdView) -> c
+    java.lang.String d(com.admob.android.ads.AdView) -> d
+    java.lang.String e(com.admob.android.ads.AdView) -> e
+    void f(com.admob.android.ads.AdView) -> f
+    boolean a$7f043dc5(com.admob.android.ads.AdView) -> g
+    void b$7f043dc9(com.admob.android.ads.AdView) -> h
+    long g(com.admob.android.ads.AdView) -> i
+    void a$3e201c39(com.admob.android.ads.AdView) -> j
+    void a(com.admob.android.ads.AdView,com.admob.android.ads.k) -> a
+    void b(com.admob.android.ads.AdView,com.admob.android.ads.k) -> b
+    com.admob.android.ads.k c(com.admob.android.ads.AdView,com.admob.android.ads.k) -> c
+    int h(com.admob.android.ads.AdView) -> k
+    void i(com.admob.android.ads.AdView) -> l
+com.admob.android.ads.AdView$1 -> com.admob.android.ads.bw:
+    com.admob.android.ads.k a -> a
+    com.admob.android.ads.AdView b -> b
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.admob.android.ads.AdView$a -> com.admob.android.ads.ad:
+    java.lang.ref.WeakReference a -> a
+    void a() -> a
+    void a(com.admob.android.ads.j) -> a
+    java.util.ArrayList a(java.util.Vector) -> a
+    android.os.Bundle a(com.admob.android.ads.n) -> a
+com.admob.android.ads.AdView$b -> com.admob.android.ads.ab:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.AdView$c -> com.admob.android.ads.z:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.AdView$d -> com.admob.android.ads.x:
+    boolean a -> a
+    java.lang.ref.WeakReference b -> b
+    void run() -> run
+com.admob.android.ads.AdView$e -> com.admob.android.ads.w:
+    java.lang.ref.WeakReference a -> a
+    java.lang.ref.WeakReference b -> b
+    int c -> c
+    boolean d -> d
+    void run() -> run
+com.admob.android.ads.AdView$f -> com.admob.android.ads.v:
+    int b -> b
+    int c -> c
+    com.admob.android.ads.AdView$f a -> a
+    java.lang.String toString() -> toString
+com.admob.android.ads.AdView$g -> com.admob.android.ads.t:
+    java.lang.ref.WeakReference a -> a
+    java.lang.ref.WeakReference b -> b
+    void run() -> run
+com.admob.android.ads.AdView$g$1 -> com.admob.android.ads.u:
+    com.admob.android.ads.k a -> a
+    com.admob.android.ads.AdView b -> b
+    com.admob.android.ads.k c -> c
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.admob.android.ads.InterstitialAd -> com.admob.android.ads.br:
+    android.os.Handler a -> a
+    java.util.Timer b -> b
+    com.admob.android.ads.InterstitialAd$a c -> c
+    com.admob.android.ads.InterstitialAd$Event d -> d
+    java.lang.ref.WeakReference e -> e
+    boolean f -> f
+    com.admob.android.ads.j h -> g
+    java.lang.String i -> h
+    java.lang.String j -> i
+    com.admob.android.ads.InterstitialAd$c k -> j
+    long l -> k
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    void d() -> d
+    com.admob.android.ads.InterstitialAd$Event e() -> e
+    java.lang.String getKeywords() -> f
+    java.lang.String getSearchQuery() -> g
+    com.admob.android.ads.InterstitialAd$c f() -> h
+    void a(com.admob.android.ads.InterstitialAd,com.admob.android.ads.j) -> a
+com.admob.android.ads.InterstitialAd$Event -> com.admob.android.ads.bv:
+    com.admob.android.ads.InterstitialAd$Event APP_START -> a
+    com.admob.android.ads.InterstitialAd$Event SCREEN_CHANGE -> b
+    com.admob.android.ads.InterstitialAd$Event PRE_ROLL -> c
+    com.admob.android.ads.InterstitialAd$Event POST_ROLL -> d
+    com.admob.android.ads.InterstitialAd$Event OTHER -> e
+    com.admob.android.ads.InterstitialAd$Event[] a -> f
+    com.admob.android.ads.InterstitialAd$Event[] values() -> values
+    com.admob.android.ads.InterstitialAd$Event valueOf(java.lang.String) -> valueOf
+com.admob.android.ads.InterstitialAd$a -> com.admob.android.ads.bg:
+    com.admob.android.ads.InterstitialAd b -> a
+    java.lang.ref.WeakReference c -> b
+    boolean a -> c
+    void run() -> run
+com.admob.android.ads.InterstitialAd$b -> com.admob.android.ads.bi:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.InterstitialAd$c -> com.admob.android.ads.bh:
+    com.admob.android.ads.InterstitialAd a -> a
+    void a() -> a
+    void a(com.admob.android.ads.j) -> a
+    boolean a(java.lang.String,int) -> a
+com.admob.android.ads.InterstitialAd$e -> com.admob.android.ads.bj:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.InterstitialAdListener -> com.admob.android.ads.bp:
+com.admob.android.ads.a -> com.admob.android.ads.j:
+    com.admob.android.ads.a a -> a
+    com.admob.android.ads.a e -> d
+    com.admob.android.ads.a b -> b
+    com.admob.android.ads.a c -> c
+    com.admob.android.ads.a d -> e
+    com.admob.android.ads.a[] f -> f
+    com.admob.android.ads.a[] values() -> values
+    com.admob.android.ads.a valueOf(java.lang.String) -> valueOf
+com.admob.android.ads.aa -> com.admob.android.ads.bl:
+    android.widget.RelativeLayout c -> c
+    android.widget.RelativeLayout d -> d
+    android.view.ViewGroup a -> a
+    android.widget.Button e -> e
+    boolean b -> b
+    java.lang.ref.WeakReference f -> f
+    void a(android.content.Context,java.lang.String,com.admob.android.ads.p,float,com.admob.android.ads.ac,com.admob.android.ads.r,java.lang.ref.WeakReference) -> a
+    void a() -> a
+    void b() -> b
+com.admob.android.ads.ab -> com.admob.android.ads.bc:
+    android.os.Handler a -> a
+    float b -> b
+    com.admob.android.ads.r c -> c
+    void a(com.admob.android.ads.r) -> a
+com.admob.android.ads.ac -> com.admob.android.ads.bd:
+    android.view.ViewGroup d -> d
+    long l -> l
+    android.widget.Button m -> m
+    android.widget.VideoView e -> e
+    com.admob.android.ads.d f -> f
+    java.lang.Runnable n -> n
+    int g -> g
+    boolean o -> o
+    com.admob.android.ads.ac$b p -> p
+    boolean h -> h
+    boolean i -> i
+    boolean j -> j
+    java.lang.ref.WeakReference q -> q
+    android.widget.MediaController r -> r
+    com.admob.android.ads.aa k -> k
+    void a(android.content.Context) -> a
+    void a() -> a
+    void a(android.view.View) -> a
+    void b(android.view.View) -> b
+    void b() -> b
+    void a(boolean) -> a
+    void b(boolean) -> b
+    void g() -> g
+    void c() -> c
+    void d() -> d
+    void onAttachedToWindow() -> onAttachedToWindow
+    void a(android.content.res.Configuration) -> a
+    boolean e() -> e
+    void f() -> f
+    void h() -> h
+    void a(com.admob.android.ads.ac) -> a
+    void a$f26a2af(com.admob.android.ads.ac) -> b
+    void a(com.admob.android.ads.ac,android.view.MotionEvent) -> a
+    void a(com.admob.android.ads.ac,android.content.Context) -> a
+com.admob.android.ads.ac$a -> com.admob.android.ads.cl:
+    java.lang.ref.WeakReference a -> a
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+    boolean onError(android.media.MediaPlayer,int,int) -> onError
+com.admob.android.ads.ac$b -> com.admob.android.ads.ck:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.ac$c -> com.admob.android.ads.ca:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.ac$d -> com.admob.android.ads.cb:
+    java.lang.ref.WeakReference a -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.admob.android.ads.ac$e -> com.admob.android.ads.by:
+    java.lang.ref.WeakReference a -> a
+    java.lang.ref.WeakReference b -> b
+    java.lang.ref.WeakReference c -> c
+    void onClick(android.view.View) -> onClick
+com.admob.android.ads.ac$f -> com.admob.android.ads.bz:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.ac$g -> com.admob.android.ads.cd:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.ac$h -> com.admob.android.ads.ce:
+    java.lang.ref.WeakReference a -> a
+    void onClick(android.view.View) -> onClick
+com.admob.android.ads.ac$i -> com.admob.android.ads.cc:
+    java.lang.ref.WeakReference a -> a
+    boolean b -> b
+    void onClick(android.view.View) -> onClick
+com.admob.android.ads.ad -> com.admob.android.ads.ba:
+    java.lang.ref.WeakReference d -> a
+    java.lang.ref.WeakReference a -> b
+    com.admob.android.ads.ag b -> c
+    java.util.Map c -> d
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    java.util.Hashtable a(java.lang.String) -> a
+com.admob.android.ads.ae -> com.admob.android.ads.bb:
+    void a(android.content.res.Configuration) -> a
+com.admob.android.ads.af -> com.admob.android.ads.ay:
+    float a -> a
+    boolean b -> b
+    float c -> c
+    void onMeasure(int,int) -> onMeasure
+com.admob.android.ads.ag -> com.admob.android.ads.az:
+com.admob.android.ads.ah -> com.admob.android.ads.aw:
+    float a -> a
+    android.graphics.PointF b -> b
+    float a(android.view.View) -> a
+    android.graphics.PointF b(android.view.View) -> b
+    com.admob.android.ads.ah c(android.view.View) -> c
+com.admob.android.ads.ai -> com.admob.android.ads.ax:
+    android.view.animation.Interpolator a -> a
+    float b -> b
+    float c -> c
+    float getInterpolation(float) -> getInterpolation
+com.admob.android.ads.aj -> com.admob.android.ads.au:
+    int[] a -> a
+    int[] b -> b
+    android.view.View c -> c
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.ak -> com.admob.android.ads.av:
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.al -> com.admob.android.ads.as:
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.am -> com.admob.android.ads.at:
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.an -> com.admob.android.ads.ap:
+    float[] a -> a
+    float[] b -> b
+    float c -> c
+    float d -> d
+    float e -> e
+    boolean f -> f
+    android.graphics.Camera g -> g
+    void initialize(int,int,int,int) -> initialize
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.analytics.InstallReceiver -> com.admob.android.ads.analytics.InstallReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.lang.String a(java.lang.String,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context,android.content.Intent) -> a
+com.admob.android.ads.analytics.InstallReceiver$1 -> com.admob.android.ads.analytics.a:
+    void a(com.admob.android.ads.e) -> a
+    void a(com.admob.android.ads.e,java.lang.Exception) -> a
+com.admob.android.ads.ao -> com.admob.android.ads.ar:
+    float[] a -> a
+    float[] b -> b
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.ap -> com.admob.android.ads.an:
+    android.view.View a -> a
+    float b -> b
+    float c -> c
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.admob.android.ads.ap$a -> com.admob.android.ads.cn:
+    void g() -> g
+com.admob.android.ads.b -> com.admob.android.ads.k:
+    java.lang.String a -> a
+    int b -> b
+    long c -> c
+    java.lang.String d -> d
+    boolean e -> e
+    boolean f -> f
+    com.admob.android.ads.j a(com.admob.android.ads.m,android.content.Context,java.lang.String,java.lang.String,com.admob.android.ads.InterstitialAd$Event) -> a
+    com.admob.android.ads.j a(com.admob.android.ads.m,android.content.Context,java.lang.String,java.lang.String,int,int,int,com.admob.android.ads.k,int,com.admob.android.ads.j$b,com.admob.android.ads.InterstitialAd$Event,com.admob.android.ads.AdView$f) -> a
+    java.lang.String a$6bf999c4(android.content.Context) -> a
+    java.lang.String a(android.content.Context,java.lang.String,java.lang.String,int,com.admob.android.ads.j$b,com.admob.android.ads.InterstitialAd$Event,com.admob.android.ads.AdView$f) -> a
+    void a(java.lang.StringBuilder,java.lang.String,java.lang.String) -> a
+com.admob.android.ads.b$1 -> com.admob.android.ads.bx:
+    int[] a -> a
+com.admob.android.ads.c -> com.admob.android.ads.l:
+    boolean a -> a
+    void a(android.content.Context) -> a
+com.admob.android.ads.d -> com.admob.android.ads.m:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    com.admob.android.ads.d$a e -> e
+    java.util.HashSet f -> f
+    int g -> g
+    void a(java.lang.String,java.util.Map) -> a
+    java.lang.String a(java.lang.String,java.util.Map,boolean) -> a
+    void a(com.admob.android.ads.e,java.lang.Exception) -> a
+    void a(com.admob.android.ads.e) -> a
+    void b(com.admob.android.ads.e) -> b
+com.admob.android.ads.d$a -> com.admob.android.ads.aj:
+com.admob.android.ads.e -> com.admob.android.ads.n:
+    byte[] a() -> c
+    java.lang.String b() -> d
+    void a(com.admob.android.ads.h) -> a
+    java.net.URL c() -> e
+    boolean d() -> a
+    void e() -> b
+    void f() -> f
+    void a$13462e() -> g
+    void a(java.lang.String) -> a
+    void a(java.lang.Object) -> a
+    java.lang.Object g() -> h
+com.admob.android.ads.f -> com.admob.android.ads.o:
+    java.util.concurrent.Executor m -> m
+    java.lang.String n -> n
+    java.lang.String a -> a
+    int b -> b
+    java.lang.Exception c -> c
+    java.util.Map d -> d
+    int e -> e
+    int f -> f
+    java.lang.String o -> o
+    java.lang.String g -> g
+    com.admob.android.ads.h h -> h
+    java.net.URL i -> i
+    byte[] j -> j
+    boolean k -> k
+    java.lang.String l -> l
+    java.lang.Object p -> p
+    java.lang.String h() -> i
+    byte[] a() -> c
+    java.lang.String b() -> d
+    void a(com.admob.android.ads.h) -> a
+    java.net.URL c() -> e
+    void f() -> f
+    void a(java.lang.String) -> a
+    void a$13462e() -> g
+    java.lang.Object g() -> h
+    void a(java.lang.Object) -> a
+com.admob.android.ads.g -> com.admob.android.ads.a:
+    boolean a -> a
+    com.admob.android.ads.e a$5e8b93fc(java.lang.String,java.lang.String,java.lang.String,com.admob.android.ads.h,int,java.lang.String) -> a
+    com.admob.android.ads.e a(java.lang.String,java.lang.String,java.lang.String,org.json.JSONObject,com.admob.android.ads.h) -> a
+    com.admob.android.ads.e a(java.lang.String,java.lang.String,java.lang.String,com.admob.android.ads.h) -> a
+    com.admob.android.ads.e a$422deb57(java.lang.String,java.lang.String,com.admob.android.ads.h) -> a
+    com.admob.android.ads.e a(java.lang.String,java.lang.String,java.lang.String) -> a
+com.admob.android.ads.h -> com.admob.android.ads.b:
+    void a(com.admob.android.ads.e) -> a
+    void a(com.admob.android.ads.e,java.lang.Exception) -> a
+com.admob.android.ads.i -> com.admob.android.ads.c:
+    java.net.HttpURLConnection m -> m
+    java.net.URL n -> n
+    boolean d() -> a
+    void i() -> j
+    void e() -> b
+    void run() -> run
+com.admob.android.ads.j -> com.admob.android.ads.d:
+    int a -> a
+    android.graphics.Rect b -> b
+    android.graphics.PointF c -> c
+    android.graphics.PointF d -> d
+    android.graphics.PointF e -> e
+    android.graphics.Matrix f -> f
+    android.graphics.RectF g -> g
+    float h -> h
+    android.os.Handler i -> i
+    java.lang.String j -> j
+    boolean k -> k
+    boolean l -> l
+    java.util.Vector m -> m
+    android.graphics.Rect n -> n
+    long o -> o
+    int p -> p
+    int q -> q
+    java.lang.ref.WeakReference r -> r
+    com.admob.android.ads.k s -> s
+    int t -> t
+    int u -> u
+    int v -> v
+    org.json.JSONObject w -> w
+    com.admob.android.ads.u x -> x
+    int y -> y
+    java.util.Vector z -> z
+    com.admob.android.ads.j$c A -> A
+    double B -> B
+    double C -> C
+    com.admob.android.ads.q D -> D
+    com.admob.android.ads.j$b E -> E
+    boolean F -> F
+    com.admob.android.ads.s G -> G
+    void a(android.os.Handler) -> a
+    com.admob.android.ads.j a(com.admob.android.ads.m,android.content.Context,org.json.JSONObject,int,int,int,com.admob.android.ads.k,com.admob.android.ads.j$b) -> a
+    double b() -> a
+    void a(java.lang.String) -> a
+    int a(int) -> a
+    int a(int,double) -> a
+    android.graphics.Rect a(android.graphics.Rect) -> a
+    com.admob.android.ads.k c() -> b
+    void a(com.admob.android.ads.k) -> a
+    long d() -> c
+    void a(com.admob.android.ads.m) -> a
+    boolean e() -> d
+    void a(com.admob.android.ads.j$c) -> a
+    int f() -> e
+    int g() -> f
+    android.graphics.Rect h() -> g
+    void i() -> h
+    void a(org.json.JSONObject) -> a
+    void j() -> i
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    boolean a(android.content.Context,org.json.JSONObject) -> a
+    void a(boolean) -> a
+    boolean o() -> m
+    void k() -> j
+    void l() -> k
+    void q() -> n
+    boolean m() -> l
+    android.view.View b(org.json.JSONObject) -> b
+    android.view.animation.AnimationSet a(org.json.JSONArray,org.json.JSONObject,android.view.View,android.graphics.Rect) -> a
+    int c(org.json.JSONObject) -> c
+    void a(org.json.JSONObject,android.view.animation.Animation,android.view.animation.AnimationSet) -> a
+    void a(android.view.animation.Animation,int,int,float,java.lang.String,boolean) -> a
+    void a(java.lang.String,android.view.animation.Animation) -> a
+    android.view.animation.Animation a(android.view.View,android.graphics.Rect,org.json.JSONObject,org.json.JSONArray,org.json.JSONArray) -> a
+    com.admob.android.ads.ak a(float,float) -> a
+    com.admob.android.ads.am a(android.graphics.PointF,android.graphics.PointF,android.view.View,android.graphics.Rect) -> a
+    android.view.animation.AnimationSet a(org.json.JSONObject,android.view.View,android.graphics.Rect,long) -> a
+    android.view.animation.Animation a(int,java.lang.String,java.lang.String,float[],org.json.JSONArray,java.lang.String[],long,android.view.View,android.graphics.Rect,org.json.JSONObject,org.json.JSONArray) -> a
+    com.admob.android.ads.aj a(int,int,android.view.View) -> a
+    com.admob.android.ads.ap a(float,float,android.view.View) -> a
+    com.admob.android.ads.al a(android.graphics.RectF,android.graphics.RectF,android.view.View,android.graphics.Rect) -> a
+    android.graphics.PointF a(android.graphics.RectF,android.graphics.PointF) -> a
+    android.view.View a(org.json.JSONObject,android.graphics.Rect) -> a
+    void a$20242606(android.graphics.Canvas,android.graphics.Rect,int,int,float) -> a
+    android.view.View d(org.json.JSONObject) -> d
+    void r() -> o
+    android.view.animation.Interpolator a(java.lang.String,long,long,long) -> a
+    android.graphics.Matrix a(org.json.JSONArray) -> a
+    android.graphics.Matrix a(org.json.JSONObject,java.lang.String,android.graphics.Matrix) -> a
+    java.lang.String[] a(org.json.JSONObject,java.lang.String) -> a
+    float[] b(org.json.JSONArray) -> b
+    float[] b(org.json.JSONObject,java.lang.String) -> b
+    float a(org.json.JSONObject,java.lang.String,float) -> a
+    org.json.JSONArray b(int) -> b
+    int c(org.json.JSONArray) -> c
+    int a(org.json.JSONObject,java.lang.String,int) -> a
+    android.graphics.RectF d(org.json.JSONArray) -> d
+    android.graphics.RectF a(org.json.JSONObject,java.lang.String,android.graphics.RectF) -> a
+    android.graphics.Rect a(org.json.JSONObject,java.lang.String,android.graphics.Rect) -> a
+    android.graphics.PointF e(org.json.JSONArray) -> e
+    android.graphics.PointF a(org.json.JSONObject,java.lang.String,android.graphics.PointF) -> a
+    void a(com.admob.android.ads.j,org.json.JSONArray) -> a
+    void a(com.admob.android.ads.j) -> a
+com.admob.android.ads.j$a -> com.admob.android.ads.ci:
+    com.admob.android.ads.j$a e -> e
+    com.admob.android.ads.j$a f -> f
+    com.admob.android.ads.j$a g -> g
+    com.admob.android.ads.j$a a -> a
+    com.admob.android.ads.j$a h -> h
+    com.admob.android.ads.j$a i -> i
+    com.admob.android.ads.j$a b -> b
+    com.admob.android.ads.j$a j -> j
+    com.admob.android.ads.j$a c -> c
+    com.admob.android.ads.j$a d -> d
+    java.lang.String k -> k
+    com.admob.android.ads.j$a[] l -> l
+    com.admob.android.ads.j$a[] values() -> values
+    com.admob.android.ads.j$a valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+    com.admob.android.ads.j$a a(java.lang.String) -> a
+com.admob.android.ads.j$b -> com.admob.android.ads.ch:
+    com.admob.android.ads.j$b a -> a
+    com.admob.android.ads.j$b b -> b
+    com.admob.android.ads.j$b c -> c
+    java.lang.String d -> d
+    com.admob.android.ads.j$b[] e -> e
+    com.admob.android.ads.j$b[] values() -> values
+    com.admob.android.ads.j$b valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.admob.android.ads.j$c -> com.admob.android.ads.cg:
+    void a() -> e
+com.admob.android.ads.j$d -> com.admob.android.ads.cf:
+    java.lang.ref.WeakReference a -> a
+    org.json.JSONArray b -> b
+    void run() -> run
+com.admob.android.ads.k -> com.admob.android.ads.f:
+    com.admob.android.ads.j a -> a
+    com.admob.android.ads.AdView b -> b
+    java.util.Vector d -> d
+    android.view.View e -> e
+    long f -> f
+    boolean g -> g
+    android.view.View h -> h
+    android.widget.ProgressBar c -> c
+    float i -> i
+    com.admob.android.ads.k$d j -> j
+    void b(android.content.Context) -> b
+    void b() -> a
+    void a(com.admob.android.ads.j) -> a
+    com.admob.android.ads.j c() -> b
+    float a(android.content.Context) -> a
+    float d() -> c
+    void e() -> d
+    void a(android.view.View,android.widget.RelativeLayout$LayoutParams) -> a
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void a() -> e
+    void f() -> f
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void g() -> g
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    boolean k() -> k
+    boolean l() -> l
+    long h() -> h
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    void m() -> m
+    org.json.JSONObject n() -> n
+    void a(android.view.View,org.json.JSONObject) -> a
+    java.util.Vector a(int,int,int,long,java.util.Vector) -> a
+    java.util.Vector a$4bbb3234(android.view.MotionEvent,java.util.Vector) -> a
+    java.util.Vector a(android.view.KeyEvent,java.util.Vector) -> a
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    java.lang.String i() -> i
+    org.json.JSONObject j() -> j
+    void setPressed(boolean) -> setPressed
+com.admob.android.ads.k$a -> com.admob.android.ads.bm:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.k$b -> com.admob.android.ads.bn:
+    org.json.JSONObject a -> a
+    java.lang.ref.WeakReference b -> b
+    void run() -> run
+com.admob.android.ads.k$c -> com.admob.android.ads.bo:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.admob.android.ads.k$d -> com.admob.android.ads.bk:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.admob.android.ads.l -> com.admob.android.ads.g:
+    org.json.JSONObject j() -> j
+    java.lang.String i() -> i
+com.admob.android.ads.m -> com.admob.android.ads.h:
+    void a() -> a
+    void a(com.admob.android.ads.j) -> a
+com.admob.android.ads.n -> com.admob.android.ads.i:
+    android.os.Bundle a() -> a
+com.admob.android.ads.o -> com.admob.android.ads.aa:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    com.admob.android.ads.r d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    android.os.Bundle a() -> a
+com.admob.android.ads.p -> com.admob.android.ads.y:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+    int d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    double g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    boolean j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    java.util.Vector m -> m
+    android.os.Bundle a() -> a
+    boolean a(android.os.Bundle) -> a
+    boolean b() -> b
+    boolean c() -> c
+com.admob.android.ads.q -> com.admob.android.ads.ae:
+    com.admob.android.ads.r a -> a
+    java.util.Vector b -> b
+    com.admob.android.ads.u c -> c
+    android.widget.PopupWindow d -> d
+    void a(java.lang.String) -> a
+    void a(android.content.Intent) -> a
+    void a(android.app.Activity,android.view.View) -> a
+    void a() -> a
+    void l() -> k
+    void k() -> j
+    void a(android.content.Context) -> a
+    void a(android.content.Context,org.json.JSONObject,com.admob.android.ads.u) -> a
+    void a(android.content.Context,java.lang.String) -> a
+    void a(android.content.Context,org.json.JSONArray) -> a
+    void a(android.content.Context,org.json.JSONObject) -> a
+    android.content.Intent b(android.content.Context,java.lang.String) -> b
+    android.content.Intent b(android.content.Context) -> b
+    void a(java.util.Hashtable) -> a
+    void b() -> b
+    boolean c() -> c
+    void a(android.os.Bundle,java.lang.String,java.lang.Object) -> a
+    android.os.Bundle a(org.json.JSONObject) -> a
+    void a(java.util.List,org.json.JSONObject,java.lang.String) -> a
+com.admob.android.ads.q$1 -> com.admob.android.ads.e:
+    void a(com.admob.android.ads.e) -> a
+    void a(com.admob.android.ads.e,java.lang.Exception) -> a
+com.admob.android.ads.q$2 -> com.admob.android.ads.am:
+    int[] a -> a
+com.admob.android.ads.q$a -> com.admob.android.ads.be:
+    com.admob.android.ads.q$a a -> a
+    com.admob.android.ads.q$a b -> b
+    com.admob.android.ads.q$a c -> c
+    java.lang.String d -> d
+    com.admob.android.ads.q$a[] e -> e
+    com.admob.android.ads.q$a[] values() -> values
+    com.admob.android.ads.q$a valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+    com.admob.android.ads.q$a a(int) -> a
+com.admob.android.ads.r -> com.admob.android.ads.ac:
+    com.admob.android.ads.j$a a -> a
+    java.lang.String b -> b
+    java.util.Vector c -> c
+    java.lang.String d -> d
+    com.admob.android.ads.q$a e -> e
+    boolean m -> m
+    boolean f -> f
+    android.graphics.Point g -> g
+    android.graphics.Point n -> n
+    com.admob.android.ads.p h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String o -> o
+    android.os.Bundle k -> k
+    boolean l -> l
+    void a(java.lang.String,boolean) -> a
+    java.util.Hashtable b() -> b
+    android.os.Bundle a() -> a
+    boolean a(android.os.Bundle) -> a
+    void a(org.json.JSONObject,com.admob.android.ads.u,java.lang.String) -> a
+    int[] a(android.graphics.Point) -> a
+    android.graphics.Point a(int[]) -> a
+    boolean a(byte) -> a
+com.admob.android.ads.s -> com.admob.android.ads.ag:
+    com.admob.android.ads.s a -> a
+    java.io.File b -> b
+    long c -> c
+    long d -> d
+    java.util.PriorityQueue e -> e
+    java.util.Hashtable f -> f
+    com.admob.android.ads.s a(android.content.Context) -> a
+    void a(java.io.File) -> a
+    void b(java.io.File) -> b
+    void c(java.io.File) -> c
+    android.graphics.Bitmap a(java.lang.String) -> a
+    void a(java.lang.String,android.graphics.Bitmap) -> a
+    void a() -> a
+    void b() -> b
+    void a(com.admob.android.ads.s) -> a
+com.admob.android.ads.s$a -> com.admob.android.ads.aq:
+    com.admob.android.ads.s a -> a
+    void run() -> run
+com.admob.android.ads.s$b -> com.admob.android.ads.ao:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.admob.android.ads.t -> com.admob.android.ads.af:
+    com.admob.android.ads.t a -> a
+    android.content.Context b -> b
+    java.lang.Thread c -> c
+    java.lang.String d -> d
+    java.util.Properties e -> e
+    android.content.Context f -> f
+    void a(android.content.Context) -> a
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String a() -> a
+    boolean b() -> b
+    java.io.File a(android.content.Context,java.lang.String) -> a
+    void a(com.admob.android.ads.e,java.lang.Exception) -> a
+    void a(com.admob.android.ads.e) -> a
+com.admob.android.ads.u -> com.admob.android.ads.ai:
+    java.util.Hashtable a -> a
+    java.util.HashSet b -> b
+    com.admob.android.ads.s c -> c
+    com.admob.android.ads.u$a e -> e
+    java.lang.ref.WeakReference d -> d
+    boolean a() -> a
+    void b() -> b
+    void a(org.json.JSONObject,java.lang.String) -> a
+    void a(java.lang.String,java.lang.String,java.lang.String,boolean) -> a
+    void a(com.admob.android.ads.e,java.lang.Exception) -> a
+    void a(com.admob.android.ads.e) -> a
+    void c() -> c
+    void d() -> d
+com.admob.android.ads.u$a -> com.admob.android.ads.bq:
+    void k() -> j
+    void l() -> k
+com.admob.android.ads.v -> com.admob.android.ads.ah:
+    android.media.AudioManager a -> a
+com.admob.android.ads.view.AdMobWebView -> com.admob.android.ads.a.a:
+    java.lang.String c -> c
+    com.admob.android.ads.ad d -> d
+    boolean a -> a
+    java.lang.ref.WeakReference b -> b
+    void loadUrl(java.lang.String) -> loadUrl
+    com.admob.android.ads.ad a(java.lang.ref.WeakReference) -> a
+    void onClick(android.view.View) -> onClick
+    void a() -> a
+    void a(java.lang.String,java.lang.Object[]) -> a
+    java.lang.String a(java.lang.Object) -> a
+com.admob.android.ads.w -> com.admob.android.ads.q:
+    java.lang.String a -> a
+    boolean b -> b
+    android.os.Bundle a() -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.admob.android.ads.x -> com.admob.android.ads.p:
+    int a -> a
+    int b -> b
+    android.widget.ImageView c -> c
+    float d -> d
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void a(boolean) -> a
+com.admob.android.ads.y -> com.admob.android.ads.s:
+    java.lang.String a -> a
+    boolean b -> b
+    com.admob.android.ads.q e -> e
+    com.admob.android.ads.ad a(java.lang.ref.WeakReference) -> a
+    void a() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.admob.android.ads.y$a -> com.admob.android.ads.bt:
+    com.admob.android.ads.y a -> b
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.admob.android.ads.z -> com.admob.android.ads.r:
+    org.json.JSONObject a -> a
+    org.json.JSONObject b -> b
+    boolean e -> e
+    void b() -> a_
+com.admob.android.ads.z$a -> com.admob.android.ads.bu:
+    java.util.Timer e -> e
+    java.util.TimerTask f -> f
+    boolean a -> b
+    boolean b -> c
+    com.admob.android.ads.j c -> d
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+com.admob.android.ads.z$a$1 -> com.admob.android.ads.bs:
+    com.admob.android.ads.z$a a -> a
+    void run() -> run
+rbermani.android.binaural.AboutActivity -> rbermani.android.binaural.AboutActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String readText() -> a
+rbermani.android.binaural.AndroidAudioDevice -> rbermani.android.binaural.h:
+    android.media.AudioTrack track -> a
+    int minSize -> b
+    short[] buffer -> c
+    void writeRaw(short[]) -> a
+    int getMinSize() -> a
+rbermani.android.binaural.BinauralManager -> rbermani.android.binaural.i:
+    int sineTableSz -> a
+    rbermani.android.binaural.AndroidAudioDevice device -> b
+    boolean continueRunning -> c
+    double frequencyLeft -> d
+    double frequencyRight -> e
+    boolean pinkNoiseEnable -> f
+    int leftChanIncrement -> g
+    int rightChanIncrement -> h
+    int leftOffset -> i
+    int rightOffset -> j
+    java.lang.Thread backgroundThread -> k
+    int bufferLength -> l
+    rbermani.android.binaural.BinauralManager$Noise[] noiseTable -> m
+    int noiseTableOffset -> n
+    int rand0 -> o
+    int rand1 -> p
+    int randomSeed -> q
+    short[] sineTable -> r
+    int[] noiseBuffer -> s
+    android.media.MediaPlayer nMediaPlayer -> t
+    float pinkNoiseAmpPref -> u
+    float binauralAmpPref -> v
+    float backgroundLoopTrack -> w
+    boolean isPlaying() -> a
+    void loadBackgroundTrack(android.content.Context) -> a
+    void enableBackgroundTrack() -> b
+    void disableBackgroundTrack() -> c
+    void setMixerLevels(int,int,int) -> a
+    void start() -> d
+    void stop() -> e
+    void terminate() -> f
+    void configureBeats(double,double) -> a
+    short[] getMixedSamples() -> g
+    void setPinkNoise(boolean) -> a
+    short genPinkNoiseSample() -> h
+    boolean access$0(rbermani.android.binaural.BinauralManager) -> a
+    rbermani.android.binaural.AndroidAudioDevice access$1(rbermani.android.binaural.BinauralManager) -> b
+rbermani.android.binaural.BinauralManager$1 -> rbermani.android.binaural.b:
+    rbermani.android.binaural.BinauralManager this$0 -> a
+    void run() -> run
+rbermani.android.binaural.BinauralManager$2 -> rbermani.android.binaural.c:
+    rbermani.android.binaural.BinauralManager this$0 -> a
+    void run() -> run
+rbermani.android.binaural.BinauralManager$Noise -> rbermani.android.binaural.j:
+    int value -> a
+    int increment -> b
+    rbermani.android.binaural.BinauralManager this$0 -> c
+rbermani.android.binaural.MainActivity -> rbermani.android.binaural.MainActivity:
+    android.widget.ArrayAdapter mAdapter -> a
+    android.widget.ImageButton leftCarrBtn -> b
+    android.widget.ImageButton rightCarrBtn -> c
+    android.widget.ImageButton leftBeatBtn -> d
+    android.widget.ImageButton rightBeatBtn -> e
+    android.widget.LinearLayout layoutBackground -> f
+    android.widget.Button executeBtn -> g
+    android.widget.Button muteBtn -> h
+    android.widget.EditText txtCarrier -> i
+    android.widget.EditText txtBeat -> j
+    rbermani.android.binaural.BinauralManager binaural -> k
+    double carrierFrequency -> l
+    double beatFrequency -> m
+    double beatFreqMax -> n
+    double beatFreqMin -> o
+    double carrierFreqMax -> p
+    double carrierFreqMin -> q
+    int holdDelayMs -> r
+    com.admob.android.ads.AdView adView -> s
+    boolean chkBoxPinkNoise -> t
+    boolean chkBoxBackground -> u
+    boolean chkBoxMixer -> v
+    int pinkNoiseAmpPref -> w
+    int binauralAmpPref -> x
+    int backgroundLoopTrack -> y
+    android.os.Handler mHandler -> z
+    java.lang.Runnable mIncrementBeat -> A
+    java.lang.Runnable mDecrementBeat -> B
+    java.lang.Runnable mIncrementCarrier -> C
+    java.lang.Runnable mDecrementCarrier -> D
+    java.lang.Runnable mRefreshAd -> E
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+    void onStart() -> onStart
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onBackPressed() -> onBackPressed
+    void setBeatText() -> a
+    void setCarrierText() -> b
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    void onClick(android.view.View) -> onClick
+    double access$0(rbermani.android.binaural.MainActivity) -> a
+    void access$1(rbermani.android.binaural.MainActivity,double) -> a
+    void access$2(rbermani.android.binaural.MainActivity) -> b
+    android.os.Handler access$3(rbermani.android.binaural.MainActivity) -> c
+    double access$4(rbermani.android.binaural.MainActivity) -> d
+    void access$5(rbermani.android.binaural.MainActivity,double) -> b
+    void access$6(rbermani.android.binaural.MainActivity) -> e
+    com.admob.android.ads.AdView access$7(rbermani.android.binaural.MainActivity) -> f
+rbermani.android.binaural.MainActivity$1 -> rbermani.android.binaural.a:
+    rbermani.android.binaural.MainActivity this$0 -> a
+    void run() -> run
+rbermani.android.binaural.MainActivity$2 -> rbermani.android.binaural.e:
+    rbermani.android.binaural.MainActivity this$0 -> a
+    void run() -> run
+rbermani.android.binaural.MainActivity$3 -> rbermani.android.binaural.d:
+    rbermani.android.binaural.MainActivity this$0 -> a
+    void run() -> run
+rbermani.android.binaural.MainActivity$4 -> rbermani.android.binaural.g:
+    rbermani.android.binaural.MainActivity this$0 -> a
+    void run() -> run
+rbermani.android.binaural.MainActivity$5 -> rbermani.android.binaural.f:
+    rbermani.android.binaural.MainActivity this$0 -> a
+    void run() -> run
+rbermani.android.binaural.PreferencesDlg -> rbermani.android.binaural.PreferencesDlg:
+    void onCreate(android.os.Bundle) -> onCreate

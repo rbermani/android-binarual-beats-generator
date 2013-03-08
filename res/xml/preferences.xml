@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="Main Settings">
+                <CheckBoxPreference android:title="Use Pink Noise" android:defaultValue="false" android:summary="Activates Pink Noise Channel" android:key="chkBoxPinkNoise"/>
+                <CheckBoxPreference android:title="Use Background Loop" android:defaultValue="false" android:summary="Enables relaxing background track" android:key="chkBoxBackground"/>
+                                        
+        
+<PreferenceScreen android:title="Mixer Settings" android:summary="Change Audio Channel Amplitude"><CheckBoxPreference android:title="Adjust Mixer Settings" android:key="chkBoxMixer"></CheckBoxPreference>
+        <rbermani.android.widgets.SeekBarPreference  
+                android:dependency="chkBoxMixer"
+                android:key="pinkNoiseAmpPref"
+                android:defaultValue="32"
+                android:title="Pink Noise Track" />   
+
+        <rbermani.android.widgets.SeekBarPreference  
+                android:dependency="chkBoxMixer"
+                android:key="binauralAmpPref"
+                android:defaultValue="32"
+                android:title="Binaural Track" />  
+                
+        <rbermani.android.widgets.SeekBarPreference  
+                android:dependency="chkBoxMixer"
+                android:key="backgroundLoopTrack"
+                android:defaultValue="32"
+                android:title="Background Loop" />  
+</PreferenceScreen>
+
+
+</PreferenceCategory>
+
+
+</PreferenceScreen>
